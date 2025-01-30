@@ -1,0 +1,105 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('bag.jpg'); /* Ganti dengan path foto background yang kamu inginkan */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.home {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
